@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(72,142,212);
+    background: linear-gradient(180deg, rgba(72,142,212,1) 0%, rgba(255,255,255,1) 100%);
+}
+h3, h4 { 
+text-align: center;
+}
+
+header {
+    position: sticky;
+    top:0;
+    background: #000;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+}
+img.cover {
+    max-width: 100%;
+    height: 100vh;
+    display: block; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+.nav-links a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#dash123{
+    background-color: #000;
+    padding:50px;
+    text-align: center;
+}
+ .dashboard-section, .prediction-section {
+    padding: 50px;
+    text-align: center;
+}
+
+ .prediction-form,.prediction-form1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+.tableauPlaceholder {
+    width: 100%; /* Make it responsive */
+    max-width: 2000px; /* Set a max-width if necessary */
+    margin: auto; /* Center it if less than max-width */
+}
+
+.prediction-form form {
+    margin-bottom: 20px;
+    width: 50%; 
+}
+
+.prediction-form input[type="text"],
+.prediction-form input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.prediction-form1 input[type="text"],
+.prediction-form1 input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.prediction-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.prediction-form1 button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prediction-form button:hover {
+    background-color: #45a049;
+}
+.prediction-form1 button:hover {
+    background-color: #45a049;
+}
+#prediction-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+/* styles.css */
+.form-container {
+    display: flex; /* Use flexbox to layout children */
+    justify-content: space-around; /* Space out the children evenly */
+    align-items: flex-start; /* Align children to the start of the cross axis */
+    flex-wrap: wrap; /* Allow items to wrap as needed */
+    gap: 20px; /* Add space between the children */
+}
+
+.prediction-form, .prediction-form1 {
+    flex: 1; /* Allow each form to grow */
+    min-width: 300px; /* Minimum width of each form */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for depth */
+    border-radius: 8px; /* Optional: Rounds corners of the form */
+    padding: 20px; /* Optional: Adds padding inside the form */
+    background: #ffffff; /* Optional: Set a background color for the form */
+}
+
+/* Adjust the canvas size if necessary */
+#chart-container canvas {
+    max-width: 100%; /* Ensures canvas does not overflow its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

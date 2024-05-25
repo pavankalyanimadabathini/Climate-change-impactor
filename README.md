@@ -1,2 +1,1 @@
-# Climate-change-impactor
-The Climate Change Impact Simulator is a project designed to use the extensive "Climate Change: Earth Surface Temperature Data" from Berkeley Earth, integrating it with advanced climate models to simulate the effects of climate change on different regions. The project aims to develop an interactive website where users can visualize the potential impacts of climate change based on historical data and future projections. Leveraging the power of AWS for computational needs and data storage, the simulator seeks to provide a dynamic, user-friendly platform for understanding and analyzing the regional consequences of evolving climate patterns.
+# climate_change
